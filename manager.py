@@ -1,12 +1,12 @@
-import todos.txt
+import items
 
 class manager(object):
 
-    def view_entries:
-        print todos.txt
+    def read(self):
+        pass
 
-    def add_item:
-        new_item = input('/n -> ')
+    def add(self):
+        pass
 
-    def complete:
-        
+    def complete(self):
+        pass
