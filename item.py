@@ -1,8 +1,9 @@
+import manager
 import datetime
 
 class item(object):
 
-    def __init__(self, task):
-        self.task = task
-        self.timestamp = datetime.datetime.now()
-        self.complete = False
+    def timestamp():
+        list_todos = open("todos.txt", "a+")
+        return list_todos.write(str(datetime.datetime.now())), list_todos.write(' ')
+        list_todos.close()
