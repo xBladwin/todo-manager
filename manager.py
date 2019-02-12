@@ -10,8 +10,8 @@ class Manager(item.item):
 
     def add():
         list_todos = open("todos.txt", "a+")
-        new_todo_name = input("What would you like to add?")
-        print(list_todos.write(new_todo_name), item.item.timestamp())
+        new_todo_name = input("What would you like to add? ")
+        return(item.item.timestamp(), list_todos.write(new_todo_name), item.item.is_finished(), list_todos.write('\n'))
 
 
 
